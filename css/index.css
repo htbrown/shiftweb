@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.shiftS {
+    width: 300px;
+    height: 300px;
+}
+.hero {
+    background-image: url('../img/ShiftBG.png');
+}
+.hero-body {
+    margin-bottom: 5vh;
+}
+#featuresColumns {
+    margin: 10px;
+    justify-content: center;
+}
+#featureIcon {
+    font-size: 60px;
+    margin: 10px;
+}
+.featureText {
+    text-align: center;
+}
