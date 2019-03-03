@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
 body {
     font-family: 'Montserrat Alternates', sans-serif;
+    overflow: hidden;
 }
 .shiftS {
     width: 300px;
