@@ -1,0 +1,18 @@
+.staff {
+    transition: transform .5s ease;
+}
+.owner {
+    border: 6px solid #a69f44
+}
+.contributor {
+    border: 6px solid #a69f44
+}
+.tag.is-owner {
+    text-align: center;
+}
+.tag.is-contributor {
+    text-align: center;
+}
+.columns {
+    width: 50%
+}

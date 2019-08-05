@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+p {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+.hero {
+    background-image: url('../img/ShiftBG.png');
+}
+
+.hero-body {
+    margin-bottom: 5vh;
+}
+
+.section {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.section-title {
+    font-size: 36px;
+    display: inline;
+}
+
+.section-content {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

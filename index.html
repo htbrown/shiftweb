@@ -6,12 +6,10 @@
     <title>Shift</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.htbrown.com/fa/5.7.2/css/all.css">
 </head>
 <body>
-    <div class="is-hidden-mobile">
-        <section class="hero is-primary is-fullheight">
+        <section class="hero is-dark is-fullheight">
             <div class="hero-head">
                 <nav class="navbar is-transparent">
                     <div class="container">
@@ -27,6 +25,9 @@
                             <div class="navbar-end">
                                 <a class="navbar-item is-active" href="/">Home</a>
                                 <a class="navbar-item" href="https://docs.shiftbot.xyz">Docs</a>
+                                <a href="features.html" class="navbar-item">Features</a>
+                                <a href="devs.html" class="navbar-item">Developers</a>
+                                <a href="dashboard.html" class="navbar-item">Dashboard</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +37,6 @@
                 <div class="container has-text-centered">
                     <h1 class="title is-1">Shift</h1>
                     <h3 class="subtitle is-3">Welcome your Discord server to a new realm.</h3>
-                    <a class="button is-medium" onclick="openFeatures();">Features</a>
                     <a class="button is-medium" href="https://discordapp.com/api/oauth2/authorize?client_id=529699598386855945&permissions=8&scope=bot">Invite</a>
                 </div>
             </div>
@@ -70,36 +70,7 @@
             </div>
             <button class="modal-close is-large" aria-label="close" onclick="closeFeatures();"></button>
         </div>
-    </div>
-    <div class="is-hidden-desktop">
-        <h1 class="title">Oops!</h1>
-        <h3 class="subtitle">Unfortunately, this website hasn't been optimized for mobile devices yet. If you would like to view this website, please go to it on a desktop computer.</h3>
-    </div>
     <script src="js/navbar.js"></script>
     <script src="js/global.js"></script>
-    <!-- Quantcast Tag -->
-        <script type="text/javascript">
-            var _qevents = _qevents || [];
-
-            (function() {
-                var elem = document.createElement('script');
-                elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-                elem.async = true;
-                elem.type = "text/javascript";
-                var scpt = document.getElementsByTagName('script')[0];
-                scpt.parentNode.insertBefore(elem, scpt);
-            })();
-
-            _qevents.push({
-                qacct:"p-EnUuVNw-x_Cq9"
-            });
-</script>
-
-<noscript>
-<div style="display:none;">
-<img src="//pixel.quantserve.com/pixel/p-EnUuVNw-x_Cq9.gif" border="0" height="1" width="1" alt="Quantcast"/>
-</div>
-</noscript>
-<!-- End Quantcast tag -->
 </body>
 </html>
