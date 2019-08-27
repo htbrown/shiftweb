@@ -1,6 +1,9 @@
 .staff {
     transition: transform .5s ease;
 }
+.staff:hover {
+    transform: scale(.95);
+}
 .owner {
     border: 6px solid #a69f44
 }
